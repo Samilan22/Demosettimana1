@@ -15,6 +15,8 @@ gulp.task('default', function(){
 
 
 gulp.task('copiaFile', function(){
-    gulp.src('*.html','*.js','*.css').pipe(gulp.dest('distribuzione'));
+    gulp.src('*.html').pipe(gulp.dest('distribuzione'));
+    gulp.src('*.js').pipe(gulp.dest('distribuzione'));
+    gulp.src('*.css').pipe(gulp.dest('distribuzione'));
 });
 

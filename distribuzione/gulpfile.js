@@ -14,6 +14,7 @@ gulp.task('default', function(){
 });
 
 
+<<<<<<< HEAD
 gulp.task('copiaHTML', function(){
     gulp.src('*.html').pipe(gulp.dest('distribuzione'));
 });
@@ -25,3 +26,11 @@ gulp.task('copiaCSS', function(){
 gulp.task('copiaJavaScript', function(){
     gulp.src('*.js').pipe(gulp.dest('distribuzione'));
 });
+=======
+gulp.task('copiaFile', function(){
+    gulp.src('*.html').pipe(gulp.dest('distribuzione'));
+    gulp.src('*.js').pipe(gulp.dest('distribuzione'));
+    gulp.src('*.css').pipe(gulp.dest('distribuzione'));
+});
+
+>>>>>>> QualityCheck
