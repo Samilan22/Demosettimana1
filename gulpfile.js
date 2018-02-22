@@ -13,14 +13,15 @@ gulp.task('default', function(){
     return gutil.log('gulp è in esecuzione');
 });
 
+
 gulp.task('copiaHTML', function(){
-    gulp.src('demosettimana/*html').pipe(gulp.dest('distribuzione'));
+    gulp.src('demosettimana1/*.html').pipe(gulp.dest('distribuzione'));
 });
 
 gulp.task('copiaCSS', function(){
-    gulp.src('demosettimana/Style.css').pipe(gulp.dest('distribuzione'));
+    gulp.src('demosettimana1/Style.css').pipe(gulp.dest('distribuzione'));
 });
 
 gulp.task('copiaJavaScript', function(){
-    gulp.src('demosettimana/*js').pipe(gulp.dest('distribuzione'));
+    gulp.src('demosettimana1/*.js').pipe(gulp.dest('distribuzione'));
 });
