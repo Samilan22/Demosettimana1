@@ -1,3 +1,32 @@
+$(document).ready(function(){
+    var url = 'https://randomuser.me/api/?gender=female&results=1000&nat=gb';
+        $.getJSON(url, function(data){
+        //console.log(data);
+        var persona = data.results[0];
+        console.log(persona);
+        
+        $('#Profile').attr('src', persona.picture.medium);
+        $('#testo1').text(persona.name.first);
+        $('#testo2').text(persona.name.last);
+        $('#testo3').text(persona.email);
+        $('#testo4').text(persona.location.street);
+        $('#testo5').text(persona.cell);
+        });
+        
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
 function caricamentoDati(){
     console.log('caricamento dati');
     var persona = extractRandomUser('it');

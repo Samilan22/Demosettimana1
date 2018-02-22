@@ -173,3 +173,10 @@ margin-left: 18px;
     width:60px;
     height:60px;
 }
+
+@media only screen and (max-device-width : 480px) {
+    header {
+        position: relative;
+    }
+}
+​
