@@ -1,0 +1,22 @@
+{
+  "name": "demosettimana1",
+  "version": "1.0.0",
+  "description": "npm demosettimana1",
+  "main": "eventi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samilan22/Demosettimana1.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Sami Arrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samilan22/Demosettimana1/issues"
+  },
+  "homepage": "https://github.com/Samilan22/Demosettimana1#readme"
+}
