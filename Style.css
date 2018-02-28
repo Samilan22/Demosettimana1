@@ -4,6 +4,13 @@ body{
     margin:0 0 0 0;
     color: #E7A310 ;
 }
+section{
+    display:flex;
+}
+
+main{
+    flex-grow:3;
+}
 
 #Title{
     font-size: 30px;
@@ -20,15 +27,17 @@ body{
 
 .content1-img{
     flex-grow: 1;
-   
+    width:20%;
 }
 
 .content1-data{
-    flex-grow: 1;
+    flex-grow: 4;
+    width:80%;
     margin-top: 25px;
 }
 
 header{
+    flex-grow:1;
     color: #E7A310;
     text-align: center;
     font-style: italic;
@@ -58,7 +67,7 @@ footer{
     text-align: center;
     font-style: italic;
     height: 85px;
-    
+    flex-grow:1;
     bottom:0;
     left:0;
     position: relative;
@@ -122,10 +131,12 @@ nav a:hover{
     width: 30%;
     height: 80px; 
 }
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
-#container{
-    width:100%;
-}
 #container2{
     width:40%;
     margin-left: 20px;
@@ -138,7 +149,6 @@ article{
     margin: auto;
     margin-bottom: 5%;
     margin-top: 5%;
-    width:50%;
     background: #2b2929;
     text-align: center;
     color: #E7A310;
