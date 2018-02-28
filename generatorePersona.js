@@ -5,7 +5,7 @@ $(document).ready(function(){
         var persona = data.results[0];
         console.log(persona);
         
-        $('#Profile').attr('src', persona.picture.medium);
+        $('#Profile').attr('src', persona.picture.large);
         $('#testo1').text(persona.name.first);
         $('#testo2').text(persona.name.last);
         $('#testo3').text(persona.email);
