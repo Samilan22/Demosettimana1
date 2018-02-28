@@ -23,6 +23,25 @@ $(document).ready(function(){
 
 
 
+$('#invioDati').click(function(){
+    console.log('inside click');
+    var persona = {
+        "name": {
+            "title": "mr",
+            "first": "Aldo",
+            "last": "Baglio"
+        },  
+    };
+    $.post("http://localhost:3000/results", persona)
+    .done(function(data){
+        alert("Data Loaded: " + data);
+    });
+});
+
+
+
+
+
 
 
 
@@ -59,7 +78,7 @@ var Name = {
     title: 'mr.',
     first: 'Mario',
     last: 'Rossi'
-}
+    }
 
 var Location = {
     street: 'Corso como',

@@ -47,12 +47,12 @@ footer{
     text-align: center;
     font-style: italic;
     height: 85px;
-    width: 100%;
+    
     bottom:0;
     left:0;
     position: relative;
     background-color: #252525;
-    width: 100%;
+   
     padding: 5px 10px 20px 10px;
 } 
 h1{
@@ -174,9 +174,3 @@ margin-left: 18px;
     height:60px;
 }
 
-@media only screen and (max-device-width : 480px) {
-    header {
-        position: relative;
-    }
-}
-​
