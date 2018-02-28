@@ -18,6 +18,16 @@ body{
     margin-left:20%;
 }
 
+.content1-img{
+    flex-grow: 1;
+   
+}
+
+.content1-data{
+    flex-grow: 1;
+    margin-top: 25px;
+}
+
 header{
     color: #E7A310;
     text-align: center;
@@ -29,11 +39,12 @@ header{
     margin-right: 0;
 }
 
+
 #Profile{
     margin-top:25px;
-    width: 300px;
-    height: 300px;
-    
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
 }
 
 #logo{
@@ -122,10 +133,12 @@ nav a:hover{
 
 
 article{
+    display: flex;
     position:relative;   
-    margin: 90px 20px 90px 455px;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
     width:50%;
-    height: 800px;
     background: #2b2929;
     text-align: center;
     color: #E7A310;
